@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Container(
             width: 300,
-            height:400,
+            height: 400,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
               color: Colors.grey[100],
@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const CircleAvatar(
-                  radius: 60, // Replace with your image
+                  radius: 60,
+                  backgroundImage: AssetImage('assets/images/images.jpeg'),
                 ),
                 const SizedBox(height: 16),
                 const Text(
